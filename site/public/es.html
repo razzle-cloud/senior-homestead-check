@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Senior Homestead Check: revise su dirección</title>
+<meta name="description" content="Revise si su vivienda en la Ciudad de Decatur tiene todas las exenciones de impuestos a la propiedad que le corresponden.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="partner.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231f4e79'/%3E%3Crect x='7' y='9' width='18' height='3' fill='%23fff'/%3E%3Crect x='7' y='15' width='18' height='4' fill='%23e8836b'/%3E%3Crect x='7' y='22' width='12' height='3' fill='%23fff'/%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip" href="#main">Ir al contenido</a>
+<div class="topbar" role="region" aria-label="Información del sitio"><div class="inner"><span class="topbar-left">Un proyecto estudiantil de tecnología cívica para Decatur, GA</span><a href="partners.html" hreflang="en"><svg class="lock" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><rect x="2.5" y="7" width="11" height="7.5" rx="1.5" fill="currentColor"/><path d="M5 7V5a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span class="tb-long">Grupos comunitarios: acceso para socios</span><span class="tb-short">Acceso para socios</span><span class="topbar-note tb-long"> (en inglés)</span><span aria-hidden="true"> &rarr;</span></a></div></div>
+<header class="site-head"><div class="inner">
+  <a class="brand" href="es.html"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rect width="32" height="32" rx="7" fill="#1f4e79"/><rect x="7" y="8" width="18" height="3" rx="1" fill="#fff"/><rect x="7" y="14.5" width="18" height="4" rx="1" fill="#e8836b"/><rect x="7" y="22" width="11" height="3" rx="1" fill="#fff"/></svg><span>Senior Homestead Check<small>Exenciones para los mayores de Decatur</small></span></a>
+  <nav aria-label="Principal"><ul><li><a href="es.html" aria-current="page">Revise su dirección</a></li><li><a href="hallazgos.html">Hallazgos</a></li><li><a href="datos.html">Sobre los datos</a></li><li class="cta-item"><a class="cta" href="solicitar.html">Cómo solicitar</a></li></ul></nav>
+  <a class="lang" href="index.html" lang="en" hreflang="en">English</a>
+</div></header>
+<main id="main">
+
+<section class="hero band">
+  <div>
+    <h1>¿Su vivienda recibe todas las exenciones de impuestos que le corresponden?</h1>
+    <p class="lede">Cada exención se solicita por separado con el Condado de DeKalb y con la Ciudad, y muchos propietarios se pierden alguna. Revise su dirección en segundos.</p>
+    <form id="lookup-form" class="lookup" autocomplete="off">
+      <label for="address">Su dirección</label>
+      <div class="row">
+        <input id="address" name="address" type="text" inputmode="text" placeholder="Por ejemplo, 123 Main St" required>
+        <button type="submit">Revisar mi dirección</button>
+      </div>
+      <p class="hint">Solo viviendas dentro de la Ciudad de Decatur. Para condominios, agregue el número de unidad.</p>
+    </form>
+  </div>
+  <aside class="bill" aria-label="Ejemplo de una factura de impuestos de la Ciudad">
+    <h2>Ejemplo: parte de una factura de impuestos 2026 de la Ciudad de Decatur</h2>
+    <ol>
+      <li><span class="what">Impuesto general de la Ciudad</span><span class="lead"></span><span class="amt">$3,962.00</span></li>
+      <li><span class="what">Exención homestead, GH‑1</span><span class="lead"></span><span class="amt">−$446.00</span></li>
+      <li class="missing"><span class="what">Exención por edad 65+, GH‑2</span><span class="lead"></span><span class="amt">no aparece</span></li>
+      <li class="total"><span class="what">Usted paga</span><span class="lead"></span><span class="amt">$3,516.00</span></li>
+    </ol>
+    <p class="note">Cada exención aparece como una línea en la factura. Si nunca se solicitó, simplemente no aparece y el propietario paga la diferencia: $167 al año por la GH-2 en esta factura.</p>
+  </aside>
+</section>
+
+<div id="results" aria-live="polite"></div>
+
+<section class="groups" aria-labelledby="groups-h">
+  <div>
+    <h2 id="groups-h">¿Trabaja con personas mayores de Decatur?</h2>
+    <p>Centros para personas mayores, grupos religiosos y asociaciones de vecinos aprobados reciben un mapa privado de qué viviendas no tienen qué exención, para tocar las puertas correctas.</p>
+  </div>
+  <div class="groups-act"><a class="pbtn" href="partners.html" hreflang="en"><svg class="lock" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><rect x="2.5" y="7" width="11" height="7.5" rx="1.5" fill="currentColor"/><path d="M5 7V5a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>Acceso para socios <span class="topbar-note">(en inglés)</span></a><a href="datos.html#privacidad">Cómo protegemos la privacidad</a></div>
+</section>
+
+<aside class="callout">
+  <span class="tip-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 21h20M4 21V9.5L8.5 6 13 9.5V21M13 21v-9h7v9M7 21v-4h3v4M16 15h1.5M16 18h1.5"/></svg></span>
+  <p><strong>¿Compró su vivienda en los últimos años?</strong> La solicitud homestead que se hace con DeKalb al cerrar la compra no cubre a la Ciudad de Decatur. Cada oficina necesita su propia solicitud. <a href="solicitar.html">Vea cómo solicitar en ambas</a>.</p>
+</aside>
+
+<section>
+  <h2>Qué revisamos</h2>
+  <div class="two-col">
+    <div><h3>Los registros de ambas oficinas</h3><p>Su factura de impuestos 2026 de la Ciudad muestra las exenciones de la Ciudad. Los registros del Condado de DeKalb muestran las del Condado. La revisión los compara lado a lado.</p></div>
+    <div><h3>Las diferencias entre ellas</h3><p>Si una oficina tiene su exención homestead y la otra no, o si los registros de DeKalb ya muestran la edad de un propietario y falta la exención correspondiente de la Ciudad, le indicamos qué formulario presentar.</p></div>
+    <div><h3>Nada sobre usted</h3><p>Solo usamos registros públicos de propiedades. No le pedimos su nombre, edad ni ingresos, y no guardamos las direcciones que se escriben.</p></div>
+  </div>
+</section>
+
+<section class="facts band-dark" aria-label="Cifras clave">
+  <div class="fact"><strong>1,259</strong><span>viviendas en Decatur cuyos propios registros muestran una exención que falta</span></div>
+  <div class="fact"><strong>$1.2 millones</strong><span>al año en impuestos que esos propietarios no tendrían que pagar</span></div>
+  <div class="fact"><strong>1 de cada 4</strong><span>propietarios que compraron en 2020–22 tiene la exención homestead en una sola oficina</span></div>
+</section>
+<p><a href="hallazgos.html">Lea los hallazgos</a> o <a href="solicitar.html">vea cómo solicitar</a>.</p>
+
+</main>
+<footer class="site-foot"><div class="inner">
+  <p>Un proyecto estudiantil de tecnología cívica para el Congressional App Challenge. No está afiliado con la Ciudad de Decatur ni con el Condado de DeKalb. Información general solamente, no es asesoría tributaria ni legal; cada oficina decide cada solicitud.</p>
+  <p>Registros a septiembre de 2026. <a href="datos.html#errores">Reportar un error</a>. <a href="partners.html" hreflang="en">Acceso para socios</a> (en inglés)</p>
+</div></footer>
+<script src="lookup.js" defer></script>
+</body>
+</html>
