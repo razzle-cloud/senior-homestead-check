@@ -5,7 +5,7 @@
 Senior Homestead Check helps homeowners in the City of Decatur, Georgia, find property-tax exemptions they already qualify for but haven't claimed, and shows them exactly where to apply. It is our entry in the 2026 Congressional App Challenge for Georgia's 5th District (Rep. Nikema Williams).
 
 - **Live site:** https://www.grepmore.com (English and Spanish)
-- **Demo video:** [YouTube link]
+- **Demo video:** (https://www.youtube.com/watch?v=TmxgNM3zxmE)
 - **Built by:** Sai Kakarala and Avi Kakarala, The Paideia School. Mentor: Raghu Kakarala.
 
 ## The problem
