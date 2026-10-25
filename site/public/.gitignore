@@ -1,0 +1,17 @@
+# Never commit data or credentials
+*.sqlite
+*.sqlite3
+*.db
+*.csv
+raw/
+logs/
+data/
+.env
+.env.*
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+.vercel/
